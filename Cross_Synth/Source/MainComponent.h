@@ -164,6 +164,10 @@ private:
 	maxiFFT fft_1, fft_2, fft_3;
 	maxiIFFT ifft;
 	TextButton sampleSwitch;
+	TextButton sample1;
+	TextButton sample2;
+	bool playSample1 = false;
+	bool playSample2 = false;
 	Label switchLabel;
 
 	bool option = true;
